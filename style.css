@@ -1,0 +1,502 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    padding: 0px auto;
+    margin: 20px auto;
+}
+header{
+    background: url(./img/stephen-leonardi-Al9Cl-b7EFU-unsplash\ 1.png);
+    background-repeat: no-repeat;
+    height: 252px;
+}
+.header{
+    background-color: #1F2021C9;
+    height: 252px;
+}
+.header ul{
+    list-style: none;
+}
+ul{
+    display: flex;
+    gap: 50px;
+}
+.header a{
+    text-decoration: none;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+
+}
+.header span{
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+}
+.header h3{
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: right;
+color: white;
+}
+.d1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header h1{
+font-weight: 700;
+font-size: 38px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+margin-top: 50px;
+margin-left: 110px;
+}
+.dcat>.p{
+    display: flex;
+    gap: 28px;
+    margin-left: 28px;
+    margin:20px 28px;
+   
+}
+.dcat .h3{
+    margin-top: 30px;
+}
+.dcat>svg{
+    position: absolute;
+    right: 40px;
+    top: 35px;
+}
+.dcat>.b1{
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+background-color: #E52D2D;
+border: none;
+border-radius: 10px;
+padding: 10px 19px;
+position: absolute;
+left: 40px;
+top: 40px;
+}
+.dcat{
+    position: relative;
+    max-width: 380px;
+    width: 100%;
+    margin-left: 50px;
+    background-color: #F3F3F3;
+}
+.p>.lol{
+    width: 4px;
+    height: 26px;
+    background-color: #6EBBD3;
+}
+.dcat h3{
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+margin-left: 28px;
+}
+.dcat span{
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.dcat .b2{
+    margin-top: 30px;
+    background-color: #6EBBD3;
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: white;
+}
+.dcat1>.p{
+    display: flex;
+    gap: 28px;
+    margin-left: 28px;
+    margin:20px 28px;
+
+}
+.dcat1{
+    max-width: 380px;
+    width: 100%;
+    margin-left: 30px;
+    background-color: #F3F3F3;
+    position: relative;
+}
+.p>.lol{
+    width: 4px;
+    height: 26px;
+    background-color: #6EBBD3;
+}
+.dcat1 h3{
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+margin-left: 28px;
+}
+.dcat1 span{
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.dcat1 svg{
+    position: absolute;
+    top: 35px;
+    right: 40px;
+}
+.dcat1 button{
+    margin-top: 30px;
+    background-color: #1F2021;
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: white;
+}
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dcat1 .h3{
+    margin-top: 30px;
+}
+.dcat2>.p{
+    display: flex;
+    gap: 28px;
+    margin-left: 28px;
+    margin:20px 28px;
+   
+}
+.dcat2 .h3{
+    margin-top: 30px;
+}
+.dcat2>svg{
+    position: absolute;
+    right: 40px;
+    top: 35px;
+}
+.dcat2>.b1{
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+background-color: #E52D2D;
+border: none;
+border-radius: 10px;
+padding: 10px 19px;
+position: absolute;
+left: 40px;
+top: 40px;
+}
+.dcat2{
+    position: relative;
+    max-width: 380px;
+    width: 100%;
+    margin-left: 30px;
+    background-color: #F3F3F3;
+}
+.p>.lol{
+    width: 4px;
+    height: 26px;
+    background-color: #6EBBD3;
+}
+.dcat2 h3{
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+margin-left: 28px;
+}
+.dcat2 span{
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.dcat2 .b2{
+    margin-top: 30px;
+    background-color: #6EBBD3;
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: white;
+}
+.dcat3>.p{
+    display: flex;
+    gap: 28px;
+    margin-left: 28px;
+    margin:20px 28px;
+   
+}
+.dcat3 .h3{
+    margin-top: 30px;
+}
+.dcat3>svg{
+    position: absolute;
+    right: 40px;
+    top: 35px;
+}
+.dcat3>.b1{
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+background-color: #E52D2D;
+border: none;
+border-radius: 10px;
+padding: 10px 19px;
+position: absolute;
+left: 40px;
+top: 40px;
+}
+.dcat3{
+    position: relative;
+    max-width: 380px;
+    width: 100%;
+    margin-left: 50px;
+    background-color: #F3F3F3;
+}
+.p>.lol{
+    width: 4px;
+    height: 26px;
+    background-color: #6EBBD3;
+}
+.dcat3 h3{
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+margin-left: 28px;
+}
+.dcat3 span{
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.dcat3 .b2{
+    margin-top: 30px;
+    background-color: #6EBBD3;
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: white;
+}
+.dcat4>.p{
+    display: flex;
+    gap: 28px;
+    margin-left: 28px;
+    margin:20px 28px;
+   
+}
+.dcat4 .h3{
+    margin-top: 30px;
+}
+.dcat4>svg{
+    position: absolute;
+    right: 40px;
+    top: 35px;
+}
+.dcat4>.b1{
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+background-color: #E52D2D;
+border: none;
+border-radius: 10px;
+padding: 10px 19px;
+position: absolute;
+left: 40px;
+top: 40px;
+}
+.dcat4{
+    position: relative;
+    max-width: 380px;
+    width: 100%;
+    margin-left: 30px;
+    background-color: #F3F3F3;
+}
+.p>.lol{
+    width: 4px;
+    height: 26px;
+    background-color: #6EBBD3;
+}
+.dcat4 h3{
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+margin-left: 28px;
+}
+.dcat4 span{
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.dcat4 .b2{
+    margin-top: 30px;
+    background-color: #6EBBD3;
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: white;
+}
+.hero>div{
+    margin-top: 40px;
+}
+.container .dtext{
+    display: flex;
+    gap: 30px;
+}
+.dtext .h5{
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.dtext h5{
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.dtext{
+    margin-left: 50px;
+}
+.big{
+    width: 380px;
+    height: 60px;
+    border: 1px solid #CACACA;
+    border-radius: 10px;
+    background-color: white;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+margin-left: 460px;
+margin-top: 50px;
+}
+.bro{
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #6EBBD3;margin-top: 110px;
+    margin-left: 360px;
+}
+/*! 1 */
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2021;
+    width: 1190px;
+    height: 200px;
+    gap: 50px;
+}
+.footer h2{
+font-weight: 700;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+}
+.footer h3{
+font-weight: 400;
+font-size: 28px;
+line-height: 91%;
+letter-spacing: 0%;
+color: white;
+}
+.footer .input{
+    width: 200px;
+    height: 45px;
+    padding-left: 30px;
+    color: #000000;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.footer .btns>button{
+    height: 45px;
+    background-color: #6EBBD3;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.d0{
+    display: flex;
+    margin-top: 30px;
+}
+.d0 h6{
+    font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+margin-left: 10px;
+}
+
