@@ -13,10 +13,19 @@
 header{
     background: url(./img/stephen-leonardi-Al9Cl-b7EFU-unsplash\ 1.png);
     background-repeat: no-repeat;
+    background-size: cover ;
     height: 252px;
+    position: relative;
 }
 .header{
+    height: 252px;
+    position: sticky;
+    z-index: 3;
+}
+.bacround{
+    position: absolute;
     background-color: #1F2021C9;
+    width: 100%;
     height: 252px;
 }
 .header ul{
@@ -97,7 +106,6 @@ top: 40px;
     position: relative;
     max-width: 380px;
     width: 100%;
-    margin-left: 50px;
     background-color: #F3F3F3;
 }
 .p>.lol{
@@ -190,6 +198,7 @@ color: white;
 .hero{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .dcat1 .h3{
     margin-top: 30px;
@@ -297,7 +306,6 @@ top: 40px;
     position: relative;
     max-width: 380px;
     width: 100%;
-    margin-left: 50px;
     background-color: #F3F3F3;
 }
 .p>.lol{
@@ -410,6 +418,7 @@ color: white;
 .container .dtext{
     display: flex;
     gap: 30px;
+    margin-top: 50px;
 }
 .dtext .h5{
 font-weight: 400;
@@ -438,7 +447,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 100%;
 letter-spacing: 0%;
-margin-left: 460px;
+margin-left: 410px;
 margin-top: 50px;
 }
 .bro{
@@ -457,6 +466,9 @@ margin-top: 50px;
     width: 1190px;
     height: 200px;
     gap: 50px;
+}
+footer{
+    margin-top: 50px;
 }
 .footer h2{
 font-weight: 700;
